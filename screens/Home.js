@@ -1223,7 +1223,7 @@ height: 226.071,
       lineHeight: 15.026,
     }}
   >
-    {"Bookmarks	"}
+    {"Bookmark"}
   </Text>
 </TouchableOpacity>
 
@@ -1403,7 +1403,7 @@ height: 226.071,
       lineHeight: 15.026,
     }}
   >
-    {"Bookmarks	"}
+    {"Bookmark	"}
   </Text>
 </TouchableOpacity>
 
@@ -2252,7 +2252,8 @@ height: 226.071,
       style={{
         color: "#000000",
         fontSize: 24,
-        marginBottom: 4,
+       
+        bottom:7,
       }}
     >
       {"🔥"}
@@ -2262,7 +2263,7 @@ height: 226.071,
         color: "#737373",
         fontSize: 14,
         fontWeight: "bold",
-        marginBottom: 9,
+        bottom: 5,
       }}
     >
       {"Reading Streak"}
@@ -2272,7 +2273,7 @@ height: 226.071,
         color: "#000000",
         fontSize: 18,
         fontWeight: "bold",
-        marginBottom: 8,
+        top: 5,
       }}
     >
       {"7 Days"}
@@ -2281,6 +2282,7 @@ height: 226.071,
       style={{
         color: "#737373",
         fontSize: 12,
+        top: 12,
       }}
     >
       {"Keep it up!"}
@@ -2299,6 +2301,8 @@ height: 226.071,
 						style={{
 							color: "#ABA3A0",
 							fontSize: 40,
+              fontfamily: 'Poppins',
+              fontstyle: 'normal',
 							fontWeight: "bold",
 							marginBottom: 9,
 							width: 182,
